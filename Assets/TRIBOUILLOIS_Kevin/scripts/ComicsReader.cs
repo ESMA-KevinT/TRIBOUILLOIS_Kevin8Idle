@@ -61,14 +61,10 @@ public class ComicsReader : MonoBehaviour
         
 
     }
-    public void DeleteButton(Button comicButton)
-    {
-        comicButton.enabled =false;
-    
-       
-
-
-    }
+    //public void DeleteButton(Image comicButton)
+    //{
+      //  comicButton.enabled =true;
+    //}
 
 }
 

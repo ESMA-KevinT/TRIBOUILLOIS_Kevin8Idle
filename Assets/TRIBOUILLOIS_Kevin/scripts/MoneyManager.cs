@@ -6,7 +6,7 @@ using UnityEngine;
 public class MoneyManager : MonoBehaviour
 {
     [SerializeField]
-    private int _money;
+    public int money;
     [SerializeField]
     private TextMeshProUGUI moneyText;
 
@@ -18,12 +18,12 @@ public class MoneyManager : MonoBehaviour
     }
     public void ChangeMoney(int newMoney)
     {
-        _money = newMoney;
-        moneyText.text = _money.ToString();
+        money = newMoney;
+        moneyText.text = money.ToString();
     }
 
     public void RiseMoney()
     {
-        ChangeMoney(_money + cr._currentComics.comicsPrice);
+        ChangeMoney(money + cr._currentComics.comicsPrice);
     }
 }
