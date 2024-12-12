@@ -17,14 +17,15 @@ public class ComicsReader : MonoBehaviour
     public Comics _currentComics;
 
     [SerializeField]
-    private Comics[] _deck;
+    private List<Comics>_deck;
 
     private MoneyManager _moneyManager;
 
     void Start()
     {
         _moneyManager = FindObjectOfType<MoneyManager>();
-        ReadComics(_deck[Random.Range(0, _deck.Length)]);
+
+        ReadComics(_deck[Random.Range(0, _deck.Count)]);
     }
 
     public void ReducePage()
@@ -34,7 +35,7 @@ public class ComicsReader : MonoBehaviour
         if (_currentPage <= 0)
         {
             _moneyManager.RiseMoney();
-            ReadComics(_deck[Random.Range(0, _deck.Length)]);
+            ReadComics(_deck[Random.Range(0, _deck.Count)]);
         }
     }
 
@@ -52,6 +53,21 @@ public class ComicsReader : MonoBehaviour
         _comicsImage.sprite = _currentComics.comicsImage;
 
         
+    }
+
+    public void AddComics(Comics comicToAdd)
+    {
+        _deck.Add(comicToAdd);
+        
+
+    }
+    public void DeleteButton(Button comicButton)
+    {
+        comicButton.enabled =false;
+    
+       
+
+
     }
 
 }
