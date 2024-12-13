@@ -23,6 +23,8 @@ public class ComicsReader : MonoBehaviour
 
     private int _newPrice;
 
+    public bool available = true;
+
     void Start()
     {
         _moneyManager = FindObjectOfType<MoneyManager>();
@@ -61,6 +63,7 @@ public class ComicsReader : MonoBehaviour
     {
         _deck.Add(comicToAdd);
         
+        available = false;
 
     }
 

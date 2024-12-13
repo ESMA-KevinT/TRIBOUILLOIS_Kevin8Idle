@@ -7,11 +7,13 @@ public class BoutonByPrice : MonoBehaviour
 {
     private MoneyManager _moneyManager;
 
+    private ComicsReader _comicsReader;
+
     public int comicPrice;
 
     public Button buttonBuy;
 
-    private bool _soldOut = false;
+    
 
 
     // Start is called before the first frame update
@@ -19,20 +21,21 @@ public class BoutonByPrice : MonoBehaviour
     {
         
         _moneyManager = FindObjectOfType<MoneyManager>();
+        _comicsReader = FindObjectOfType<ComicsReader>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (comicPrice>_moneyManager.money)
+        if (comicPrice>_moneyManager.money || _comicsReader.available == false)
         {
             buttonBuy.interactable = false;
         }
-        if (comicPrice < _moneyManager.money )
+        else 
         {
             buttonBuy.interactable = true;
             //_moneyManager.money-=comicPrice;
-           
+            
 
         }
     }
