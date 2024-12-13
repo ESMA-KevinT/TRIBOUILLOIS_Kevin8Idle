@@ -440,6 +440,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 945346070}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 945346070}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddComics
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SubstractMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284650616763788648, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: comicPrice
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284650616763788648, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: comicToAdd
+      value: 
+      objectReference: {fileID: 11400000, guid: e80b00416025acf4cb0b8e69088f221f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -462,6 +490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpiderMan item (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 349077612055571511, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -476,7 +508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMin.x
@@ -484,11 +516,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 642.8655
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_SizeDelta.y
@@ -524,11 +556,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 321.43274
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -563.5
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -564,6 +596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpiderMan item (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 349077612055571511, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -578,7 +614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMin.x
@@ -586,11 +622,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 642.8655
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_SizeDelta.y
@@ -626,11 +662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 321.43274
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -236.16667
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2725,6 +2761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpiderMan item (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 349077612055571511, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2739,7 +2779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMin.x
@@ -2747,11 +2787,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 642.8655
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2787,11 +2827,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 321.43274
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -727.1667
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2961,6 +3001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpiderMan item (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 349077612055571511, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2975,7 +3019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMin.x
@@ -2983,11 +3027,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 642.8655
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_SizeDelta.y
@@ -3023,11 +3067,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 321.43274
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -399.83334
       objectReference: {fileID: 0}
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3226,6 +3270,30 @@ PrefabInstance:
     - target: {fileID: 4629993893935347947, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 945346070}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 945346070}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddComics
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SubstractMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311330549459818043, guid: e84150e1d1e87ea46b8eb582e8391eb5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
