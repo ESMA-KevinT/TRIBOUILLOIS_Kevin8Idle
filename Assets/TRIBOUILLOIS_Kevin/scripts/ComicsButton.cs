@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BoutonByPrice : MonoBehaviour
+public class ComicsButton : MonoBehaviour
 {
     private MoneyManager _moneyManager;
 
@@ -12,6 +12,10 @@ public class BoutonByPrice : MonoBehaviour
     public int comicPrice;
 
     public Button buttonBuy;
+
+    public Comics comicToAdd;
+
+    public bool available;
 
     
 
@@ -27,7 +31,7 @@ public class BoutonByPrice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (comicPrice>_moneyManager.money || _comicsReader.available == false)
+        if (comicPrice>_moneyManager.money || available == false)
         {
             buttonBuy.interactable = false;
         }
