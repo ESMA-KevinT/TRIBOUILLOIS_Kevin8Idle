@@ -11,6 +11,8 @@ public class BoutonByPrice : MonoBehaviour
 
     public Button buttonBuy;
 
+    private bool _soldOut = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,10 +28,12 @@ public class BoutonByPrice : MonoBehaviour
         {
             buttonBuy.interactable = false;
         }
-        if (comicPrice < _moneyManager.money)
+        if (comicPrice < _moneyManager.money )
         {
             buttonBuy.interactable = true;
             //_moneyManager.money-=comicPrice;
+           
+
         }
     }
 }

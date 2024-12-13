@@ -21,6 +21,8 @@ public class ComicsReader : MonoBehaviour
 
     private MoneyManager _moneyManager;
 
+    private int _newPrice;
+
     void Start()
     {
         _moneyManager = FindObjectOfType<MoneyManager>();
@@ -61,6 +63,15 @@ public class ComicsReader : MonoBehaviour
         
 
     }
+
+    public void SubstractMoney(int price)
+    {
+        _newPrice = _moneyManager.money -= price;
+
+        _moneyManager.ChangeMoney(_newPrice);
+    }
+
+
     //public void DeleteButton(Image comicButton)
     //{
       //  comicButton.enabled =true;
