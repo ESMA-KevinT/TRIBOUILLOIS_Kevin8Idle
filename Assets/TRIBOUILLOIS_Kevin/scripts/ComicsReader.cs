@@ -29,7 +29,7 @@ public class ComicsReader : MonoBehaviour
 
         ReadComics(_deck[Random.Range(0, _deck.Count)]);
 
-        StartCoroutine(autoClick());
+       
     }
 
     public void ReducePage()
@@ -80,6 +80,11 @@ public class ComicsReader : MonoBehaviour
     //{
     //  comicButton.enabled =true;
     //}
+
+    public void startMyCoroutine()
+    {
+        StartCoroutine(autoClick());
+    }
 
     public IEnumerator autoClick()
     {
