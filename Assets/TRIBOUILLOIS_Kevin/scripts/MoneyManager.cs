@@ -13,7 +13,7 @@ public class MoneyManager : MonoBehaviour
     private ComicsReader cr;
 
 
-    public int multiplier = 1; 
+    public int multiplier = 0; 
 
     private void Start()
     {
@@ -29,7 +29,7 @@ public class MoneyManager : MonoBehaviour
     public void RiseMoney()
     {
         
-        ChangeMoney(money + cr._currentComics.comicsPrice * multiplier );
+        ChangeMoney(money + cr._currentComics.comicsPrice * Mathf.Max(1,multiplier));
     }
 
     public void multiplyScore(int newMultiply)
