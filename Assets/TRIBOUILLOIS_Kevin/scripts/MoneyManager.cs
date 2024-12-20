@@ -12,9 +12,13 @@ public class MoneyManager : MonoBehaviour
 
     private ComicsReader cr;
 
+
+    public int multiplier = 1; 
+
     private void Start()
     {
         cr = FindFirstObjectByType<ComicsReader>();
+        
     }
     public void ChangeMoney(int newMoney)
     {
@@ -24,6 +28,13 @@ public class MoneyManager : MonoBehaviour
 
     public void RiseMoney()
     {
-        ChangeMoney(money + cr._currentComics.comicsPrice);
+        
+        ChangeMoney(money + cr._currentComics.comicsPrice * multiplier );
+    }
+
+    public void multiplyScore(int newMultiply)
+    {
+        multiplier += newMultiply;
+        //UpgradeButton.available = false;
     }
 }
