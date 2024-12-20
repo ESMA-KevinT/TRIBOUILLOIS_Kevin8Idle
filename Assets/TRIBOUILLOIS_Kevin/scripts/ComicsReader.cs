@@ -28,6 +28,8 @@ public class ComicsReader : MonoBehaviour
         _moneyManager = FindObjectOfType<MoneyManager>();
 
         ReadComics(_deck[Random.Range(0, _deck.Count)]);
+
+        StartCoroutine(autoClick());
     }
 
     public void ReducePage()
@@ -76,8 +78,17 @@ public class ComicsReader : MonoBehaviour
 
     //public void DeleteButton(Image comicButton)
     //{
-      //  comicButton.enabled =true;
+    //  comicButton.enabled =true;
     //}
+
+    public IEnumerator autoClick()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(3);
+            ReducePage();
+        }
+    }
 
 }
 

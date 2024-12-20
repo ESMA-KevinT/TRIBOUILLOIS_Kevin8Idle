@@ -37,4 +37,6 @@ public class MoneyManager : MonoBehaviour
         multiplier += newMultiply;
         //UpgradeButton.available = false;
     }
+
+    
 }
