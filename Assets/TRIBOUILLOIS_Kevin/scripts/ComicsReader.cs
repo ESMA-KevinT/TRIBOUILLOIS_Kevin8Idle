@@ -90,7 +90,7 @@ public class ComicsReader : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(1);
             ReducePage();
         }
     }
