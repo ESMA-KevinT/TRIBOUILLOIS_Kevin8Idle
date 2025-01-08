@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3daec38c54c2c94b84874b1947eb782, type: 3}
+  m_Name: Invincible tome 1
+  m_EditorClassIdentifier: 
+  comicsName: Invincible tome 1
+  pageBase: 150
+  comicsImage: {fileID: 21300000, guid: 75643ab3335e973409a0c13d2a950859, type: 3}
+  comicsPrice: 10
